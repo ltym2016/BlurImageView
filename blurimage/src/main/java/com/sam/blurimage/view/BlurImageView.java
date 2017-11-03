@@ -19,7 +19,7 @@ public class BlurImageView extends SimpleDraweeView {
 
     private BlurPostprocessor processor;
     private Context mContext;
-    private int radius = 25;// 默认是25
+    private int radius = 25;// default 25
 
     public BlurImageView(Context context) {
         this(context, null);
